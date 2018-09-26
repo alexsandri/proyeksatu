@@ -8,11 +8,30 @@
 </ion-header>
 
 <ion-content padding>
-  <h3>Ionic Menu Starter</h3>
-
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will show you the way.
-  </p>
-
-  <button ion-button secondary menuToggle>Toggle Menu</button>
+	<ion-slides autoplay="5000" loop="true" speed="3000">
+		<ion-slide >
+			<img src="assets/imgs/ica-slidebox-img-1.png" class="slide-image"/>
+			<h2 class="slide-title">Welcome to the Docs!</h2>
+			<p>The <b>Ionic Component Documentation</b> showcases a number of useful components that are included out of the box with Ionic.</p>
+		</ion-slide>
+		<ion-slide >
+			<img src="assets/imgs/ica-slidebox-img-2.png" class="slide-image"/>
+			<h2 class="slide-title">What is Ionic?</h2>
+			<p><b>Ionic Framework</b> is an open source SDK that enables developers to build high quality mobile apps with web technologies like HTML, CSS, and JavaScript.</p>
+		</ion-slide>
+		<ion-slide >
+			<img src="assets/imgs/ica-slidebox-img-3.png" class="slide-image"/>
+			<h2 class="slide-title">What is Ionic Cloud?</h2>
+			<p></p>
+		</ion-slide>
+		<ion-slide >
+			<img src="assets/imgs/ica-slidebox-img-4.png" class="slide-image"/>
+			<h2 class="slide-title">Ready to Play?</h2>
+			<button ion-button large clear icon-end color="primary">
+				Continue
+				<ion-icon name="arrow-forward"></ion-icon>
+			  </button>
+			<p></p>
+		</ion-slide>
+	</ion-slides>
 </ion-content>
